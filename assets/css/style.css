@@ -1,0 +1,100 @@
+/* Fonts List
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+Fonts List */
+
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+}
+/* Reset */
+
+/* Layout */
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75vh;
+  background-color: antiquewhite;
+}
+/* Layout */
+
+/* Hero Section */
+/* Right Side */
+#portfolio {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  align-self: center;
+  margin-bottom: 8rem;
+  color: #1a1f2b;
+}
+#hello {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #96d13b;
+}
+#full-name,
+#last-name {
+  font-family: "Merriweather", serif;
+  font-size: 7rem;
+  color: #1a1f2b;
+}
+#last-name {
+  color: #3b65d2;
+}
+#proffesion-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+#button-container,
+#proffession {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#proffession {
+  justify-content: flex-start;
+}
+.proffession,
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  color: #1a1f2b;
+}
+#button {
+  font-size: 1.75rem;
+  border: none;
+  background-color: #306d7a;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+#proffesion-button {
+  margin-top: 8rem;
+}
+#hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15rem;
+}
+/* Right Side */
+
+/* Left Side */
+#hero-image {
+  height: 75vh;
+}
+#hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Left Side */
+/* Hero Section */
