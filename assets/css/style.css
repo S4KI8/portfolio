@@ -24,6 +24,7 @@ Fonts List */
   margin: 0px;
   padding: 0px;
   font-size: 10px;
+  box-sizing: border-box;
 }
 /* Reset */
 
@@ -31,19 +32,19 @@ Fonts List */
 #hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 75vh;
+  grid-template-rows: auto;
   background-color: antiquewhite;
 }
 @media (max-width: 375px) {
   #hero {
     grid-template-columns: 100vw;
-    grid-template-rows: 50vh;
+    grid-template-rows: auto;
   }
 }
 @media (min-width: 376px) and (max-width: 575px) {
   #hero {
     grid-template-columns: 100vw;
-    grid-template-rows: 55vh;
+    grid-template-rows: auto;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -66,14 +67,14 @@ Fonts List */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 15rem;
+  padding-left: 15rem;
 }
 #portfolio {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 100;
   align-self: center;
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
   color: #1a1f2b;
 }
 #hello {
@@ -122,22 +123,23 @@ Fonts List */
   padding: 1rem 2rem;
   border-radius: 1.2rem;
 }
-#cv {
+#resume {
   background-color: #3b65d2;
 }
 #proffesion-link {
-  margin-top: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 /* Responsive */
 @media (max-width: 375px) {
   #hero-left {
-    margin: 0rem 2rem 0rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     justify-content: center;
   }
   #portfolio {
     font-size: 1.75rem;
-    margin: 0rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
   }
   #hello {
     font-size: 1.5rem;
@@ -152,7 +154,7 @@ Fonts List */
     grid-template-rows: 1fr 1fr;
   }
   #proffession {
-    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
   }
   .proffession,
   .link {
@@ -167,17 +169,17 @@ Fonts List */
     margin: 1rem 0.7rem;
   }
   #proffesion-link {
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
   }
 }
 @media (min-width: 376px) and (max-width: 575px) {
   #hero-left {
-    margin: 0rem 5rem 0rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
     justify-content: center;
   }
   #portfolio {
     font-size: 2.1rem;
-    margin: 0rem 0rem 4rem 0rem;
+    padding: 5rem 0rem 3rem 0rem;
   }
   #hello {
     font-size: 1.75rem;
@@ -195,7 +197,7 @@ Fonts List */
     gap: 4rem;
   }
   #proffession {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
   .proffession {
     font-size: 1.1rem;
@@ -205,7 +207,7 @@ Fonts List */
     padding: 0.75rem 1.5rem;
   }
   #proffesion-link {
-    margin-top: 2.75rem;
+    padding-top: 2.75rem;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -433,3 +435,23 @@ Fonts List */
 }
 /* Responsive */
 /* About Me Section */
+/* #education {
+  background-color: #1a1f2b;
+}
+.versity {
+  margin-top: 51rem;
+}
+#footer {
+  background-color: #d6ebb7;
+  margin-top: 10rem;
+}
+.connect-with-me {
+  color: #1a1f2b;
+  font-size: 5rem;
+  margin-top: 5rem;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 5rem;
+} */
