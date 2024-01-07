@@ -28,7 +28,7 @@ Fonts List */
 @media (min-width: 376px) and (max-width: 575px) {
   #hero {
     grid-template-columns: 100vw;
-    grid-template-rows: 60vh;
+    grid-template-rows: 55vh;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
