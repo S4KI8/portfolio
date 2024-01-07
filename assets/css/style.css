@@ -387,8 +387,9 @@ Fonts List */
 /* Responsive */
 .para-text {
   color: #1a1f2b;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
 }
 #bio-first-para-text {
   font-size: 3.5rem;
@@ -435,23 +436,105 @@ Fonts List */
 }
 /* Responsive */
 /* About Me Section */
-/* #education {
-  background-color: #1a1f2b;
-}
-.versity {
-  margin-top: 51rem;
-}
+
+/* Footer */
 #footer {
-  background-color: #d6ebb7;
-  margin-top: 10rem;
+  background-color: wheat;
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  padding-left: 15rem;
 }
 .connect-with-me {
+  font-size: 4rem;
+  padding-top: 8rem;
+}
+.name {
+  font-size: 2.75rem;
+  padding-top: 5rem;
+}
+.contact-information,
+.contact-information a,
+.connect-with-me-social {
+  font-size: 1.75rem;
   color: #1a1f2b;
-  font-size: 5rem;
-  margin-top: 5rem;
+}
+.e-mail {
+  padding-top: 2rem;
+}
+.find-my-resume {
+  padding-top: 2rem;
+}
+.connect-with-me-social {
+  padding-top: 5rem;
 }
 
-.name {
-  font-size: 2rem;
-  margin: 5rem;
-} */
+/* Responsive */
+@media (max-width: 375px) {
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .connect-with-me {
+    font-size: 2rem;
+    padding-top: 7rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    padding-top: 4rem;
+  }
+  .contact-information,
+  .contact-information a,
+  .connect-with-me-social {
+    font-size: 1rem;
+    color: #1a1f2b;
+  }
+  .e-mail {
+    padding-top: 1.5rem;
+  }
+  .find-my-resume {
+    padding-top: 1.5rem;
+  }
+  .connect-with-me-social {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  footer {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .connect-with-me {
+    font-size: 2rem;
+    padding-top: 7rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    padding-top: 4rem;
+  }
+  .contact-information,
+  .contact-information a,
+  .connect-with-me-social {
+    font-size: 1rem;
+    color: #1a1f2b;
+  }
+  .e-mail {
+    padding-top: 1.5rem;
+  }
+  .find-my-resume {
+    padding-top: 1.5rem;
+  }
+  .connect-with-me-social {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Responsive */
+/* Footer */
