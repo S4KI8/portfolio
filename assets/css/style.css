@@ -378,8 +378,8 @@ Fonts List */
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
-/* Responsive */
 
+/* Responsive */
 .para-text {
   color: #1a1f2b;
   font-size: 3rem;
@@ -397,7 +397,7 @@ Fonts List */
   }
   .para-text {
     font-size: 1rem;
-    margin-top: 0.75rem;
+    margin-top: 1.1rem;
   }
   #bio-first-para-text {
     font-size: 1.15rem;
@@ -411,7 +411,7 @@ Fonts List */
   }
   .para-text {
     font-size: 1.2rem;
-    margin-top: 0.75rem;
+    margin-top: 1.2rem;
   }
   #bio-first-para-text {
     font-size: 1.5rem;
