@@ -97,7 +97,8 @@ Fonts List */
   font-size: 1.75rem;
   color: #1a1f2b;
 }
-#button {
+#button,
+#cv-download-button {
   font-size: 1.75rem;
   border: none;
   background-color: #306d7a;
@@ -105,6 +106,10 @@ Fonts List */
   padding: 1rem 2rem;
   border-radius: 1.2rem;
   cursor: pointer;
+  margin: 1.3rem;
+}
+#cv-download-button {
+  background-color: #3b65d2;
 }
 #proffesion-button {
   margin-top: 8rem;
@@ -136,9 +141,11 @@ Fonts List */
   .button {
     font-size: 1rem;
   }
-  #button {
-    font-size: 1rem;
+  #button,
+  #cv-download-button {
+    font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
+    margin: 1rem 0.7rem;
   }
   #proffesion-button {
     margin-top: 3.5rem;
@@ -165,11 +172,11 @@ Fonts List */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .proffession,
-  .button {
+  .proffession {
     font-size: 1.1rem;
   }
-  #button {
+  #button,
+  #cv-download-button {
     font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
   }
