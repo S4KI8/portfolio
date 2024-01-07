@@ -4,6 +4,21 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 Fonts List */
 
+/* Media Query */
+@media (max-width: 375px) {
+}
+@media (min-width: 376px) and (max-width: 575px) {
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Media Query */
+
 /* Reset */
 * {
   margin: 0px;
@@ -269,3 +284,149 @@ Fonts List */
 /* Responsive */
 /* Right Side */
 /* Hero Section */
+
+/* About Me Section */
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 10rem 15rem;
+}
+/* Responsive */
+@media (max-width: 375px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem 2rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Responsive */
+
+#bio {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  color: #1a1f2b;
+}
+#profile-image {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 15rem;
+}
+/* Responsive */
+@media (max-width: 375px) {
+  #about-me-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bio {
+    font-size: 2.5rem;
+    align-self: flex-start;
+  }
+  #profile-image {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  #about-me-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bio {
+    font-size: 2.5rem;
+    align-self: flex-start;
+  }
+  #profile-image {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Responsive */
+
+.para-text {
+  color: #1a1f2b;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+#bio-first-para-text {
+  font-size: 3.5rem;
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  margin-top: 0rem;
+}
+
+@media (max-width: 375px) {
+  #about-me-right {
+  }
+  .para-text {
+    font-size: 1rem;
+    margin-top: 0.75rem;
+  }
+  #bio-first-para-text {
+    font-size: 1.15rem;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    margin-top: 0rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  #about-me-right {
+  }
+  .para-text {
+    font-size: 1.2rem;
+    margin-top: 0.75rem;
+  }
+  #bio-first-para-text {
+    font-size: 1.5rem;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    margin-top: 0rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Responsive */
+/* About Me Section */
