@@ -92,12 +92,12 @@ Fonts List */
 #last-name {
   color: #3b65d2;
 }
-#proffesion-button {
+#proffesion-link {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-#button-container,
+#link-container,
 #proffession {
   display: flex;
   justify-content: center;
@@ -107,26 +107,25 @@ Fonts List */
   justify-content: flex-start;
 }
 .proffession,
-.button {
+.link {
   font-family: "Poppins", sans-serif;
   font-size: 1.75rem;
   color: #1a1f2b;
 }
-#button,
-#cv-download-button {
-  font-size: 1.75rem;
-  border: none;
-  background-color: #306d7a;
+#link-container {
+  gap: 5rem;
+}
+.link {
+  text-decoration: none;
   color: white;
+  background-color: #306d7a;
   padding: 1rem 2rem;
   border-radius: 1.2rem;
-  cursor: pointer;
-  margin: 1.3rem;
 }
-#cv-download-button {
+#cv {
   background-color: #3b65d2;
 }
-#proffesion-button {
+#proffesion-link {
   margin-top: 8rem;
 }
 
@@ -147,7 +146,7 @@ Fonts List */
   #last-name {
     font-size: 2rem;
   }
-  #proffesion-button {
+  #proffesion-link {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -156,16 +155,19 @@ Fonts List */
     margin-bottom: 0.75rem;
   }
   .proffession,
-  .button {
+  .link {
     font-size: 1rem;
   }
-  #button,
-  #cv-download-button {
+  #link-container {
+    gap: 2rem;
+  }
+  #reach-me,
+  #cv {
     font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
     margin: 1rem 0.7rem;
   }
-  #proffesion-button {
+  #proffesion-link {
     margin-top: 2.5rem;
   }
 }
@@ -185,10 +187,13 @@ Fonts List */
   #last-name {
     font-size: 2.4rem;
   }
-  #proffesion-button {
+  #proffesion-link {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  #link-container {
+    gap: 4rem;
   }
   #proffession {
     margin-bottom: 1rem;
@@ -196,12 +201,12 @@ Fonts List */
   .proffession {
     font-size: 1.1rem;
   }
-  #button,
-  #cv-download-button {
+  #reach-me,
+  #cv {
     font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
   }
-  #proffesion-button {
+  #proffesion-link {
     margin-top: 2.75rem;
   }
 }
