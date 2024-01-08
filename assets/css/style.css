@@ -296,6 +296,7 @@ Fonts List */
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   padding: 10rem 15rem;
+  margin-bottom: 15rem;
 }
 /* Responsive */
 @media (max-width: 375px) {
@@ -305,6 +306,7 @@ Fonts List */
     justify-content: center;
     align-items: center;
     padding: 3.5rem 2rem;
+    margin-bottom: 3rem;
   }
 }
 @media (min-width: 376px) and (max-width: 575px) {
@@ -314,6 +316,7 @@ Fonts List */
     justify-content: center;
     align-items: center;
     padding: 4rem 5rem;
+    margin-bottom: 3rem;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -436,6 +439,162 @@ Fonts List */
 }
 /* Responsive */
 /* About Me Section */
+
+/* Education */
+
+#education-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 10rem;
+}
+
+.education-left {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 15rem;
+}
+.university-info,
+.college-info {
+  margin-bottom: 10rem;
+}
+.degree-name {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: #1a1f2b;
+}
+.institute-name,
+.passing-year,
+.grade-info {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1a1f2b;
+}
+.education-right {
+  padding-right: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.education {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  color: #1a1f2b;
+}
+#education-image {
+  height: 70rem;
+  width: 70rem;
+  margin-top: 5rem;
+}
+
+/* Responsive */
+@media (max-width: 375px) {
+  #education-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+  }
+  .education-left {
+    order: 1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+  }
+  .university-info,
+  .college-info {
+    margin-bottom: 2rem;
+  }
+  .degree-name {
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: #1a1f2b;
+  }
+  .institute-name,
+  .passing-year,
+  .grade-info {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #1a1f2b;
+  }
+  .education-right {
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education {
+    font-size: 2.5rem;
+  }
+  #education-image {
+    height: 15rem;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  #education-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+  }
+  .education-left {
+    order: 1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+  }
+  .university-info,
+  .college-info {
+    margin-bottom: 2rem;
+  }
+  .degree-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: #1a1f2b;
+  }
+  .institute-name,
+  .passing-year,
+  .grade-info {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1a1f2b;
+  }
+  .education-right {
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education {
+    font-size: 2.5rem;
+  }
+  #education-image {
+    height: 25rem;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 992px) {
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+/* Responsive */
+/* Education */
 
 /* Footer */
 #footer {
@@ -578,5 +737,4 @@ footer {
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
 /* Responsive */
-
 /* Footer */
