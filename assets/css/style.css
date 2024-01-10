@@ -17,6 +17,8 @@ Fonts List */
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
 /* Media Query */
 
 /* Reset */
@@ -28,30 +30,39 @@ Fonts List */
 }
 /* Reset */
 
-/* Layout */
-#hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  background-color: antiquewhite;
+/* Universal Design */
+.section-heading-text {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  color: #1a1f2b;
 }
+
+.proffession,
+.paragraph-heading-text,
+.institute-name,
+.designation,
+.course-name,
+.degree-name {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #1a1f2b;
+}
+.paragraph-text {
+  color: #1a1f2b;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Responsive */
 @media (max-width: 375px) {
-  #hero {
-    grid-template-columns: 100vw;
-    grid-template-rows: auto;
-  }
 }
 @media (min-width: 376px) and (max-width: 575px) {
-  #hero {
-    grid-template-columns: 100vw;
-    grid-template-rows: auto;
-  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-  #hero {
-    grid-template-columns: 100vw;
-    grid-template-rows: 75vh;
-  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
 }
@@ -59,22 +70,34 @@ Fonts List */
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
-/* Layout */
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
+/* Responsive */
+/* Universal Design */
 
 /* Hero Section */
+
+/* Layout */
+#hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: antiquewhite;
+}
+/* Layout */
+
 /* Left Side */
-#hero-left {
+#hero-left-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15rem;
+  padding: 3rem 0rem 3rem 15rem;
 }
 #portfolio {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 100;
   align-self: center;
-  padding-bottom: 8rem;
   color: #1a1f2b;
 }
 #hello {
@@ -83,40 +106,42 @@ Fonts List */
   font-style: italic;
   font-weight: 700;
   color: #96d13b;
+  padding-top: 5rem;
 }
-#full-name,
-#last-name {
+#hero-full-name,
+#hero-last-name {
   font-family: "Merriweather", serif;
-  font-size: 7rem;
+  font-size: 5.87rem;
   color: #1a1f2b;
 }
-#last-name {
+#hero-last-name {
   color: #3b65d2;
 }
-#proffesion-link {
+#proffesion-link-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr;
+  padding-top: 7rem;
 }
 #link-container,
 #proffession {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
+  gap: 4rem;
+}
+#proffession,
+.hero-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #1a1f2b;
 }
 #proffession {
   justify-content: flex-start;
-}
-.proffession,
-.link {
-  font-family: "Poppins", sans-serif;
   font-size: 1.75rem;
-  color: #1a1f2b;
+  font-weight: 650;
 }
-#link-container {
-  gap: 5rem;
-}
-.link {
+.hero-link {
   text-decoration: none;
   color: white;
   background-color: #306d7a;
@@ -126,89 +151,125 @@ Fonts List */
 #resume {
   background-color: #3b65d2;
 }
-#proffesion-link {
-  padding-top: 7rem;
-  padding-bottom: 5rem;
+/* Left Side */
+
+/* Right Side */
+#hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+#hero-image {
+  height: 75vh;
+}
+/* Right Side */
 
 /* Responsive */
 @media (max-width: 375px) {
-  #hero-left {
-    padding: 0rem 2rem 0rem 2rem;
-    justify-content: center;
+  /* Layout */
+  #hero-section {
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+  }
+  /* Layout */
+
+  /* Left Side */
+  #hero-left-container {
+    padding: 4rem 2rem 4rem 2rem;
   }
   #portfolio {
     font-size: 1.75rem;
-    padding: 4rem 0rem 3rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
   #hello {
     font-size: 1.5rem;
+    padding-top: 2.5rem;
   }
-  #full-name,
-  #last-name {
+  #hero-full-name,
+  #hero-last-name {
     font-size: 2rem;
   }
-  #proffesion-link {
+  #proffesion-link-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 2.5rem;
   }
-  #proffession {
-    padding-bottom: 0.75rem;
-  }
-  .proffession,
-  .link {
+  #proffession,
+  .hero-link {
     font-size: 1rem;
   }
   #link-container {
+    justify-content: center;
     gap: 2rem;
   }
-  .link {
+  .hero-link {
     font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
-    margin: 1rem 0.7rem;
   }
-  #proffesion-link {
-    padding-top: 2.5rem;
+  #link-container {
+    padding-top: 1rem;
   }
+  /* Left Side */
+
+  /* Right Side */
+  #hero-right {
+    display: none;
+  }
+  /* Right Side */
 }
 @media (min-width: 376px) and (max-width: 575px) {
-  #hero-left {
-    padding: 0rem 5rem 0rem 5rem;
-    justify-content: center;
+  /* Layout */
+  #hero-section {
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+  }
+  /* Layout */
+
+  /* Left Side */
+  #hero-left-container {
+    padding: 5rem 5rem 5rem 5rem;
   }
   #portfolio {
-    font-size: 2.1rem;
-    padding: 5rem 0rem 3rem 0rem;
+    font-size: 2.25rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
   #hello {
-    font-size: 1.75rem;
+    font-size: 2rem;
+    padding-top: 3.5rem;
   }
-  #full-name,
-  #last-name {
-    font-size: 2.4rem;
+  #hero-full-name,
+  #hero-last-name {
+    font-size: 2.45rem;
   }
-  #proffesion-link {
+  #proffesion-link-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 3.5rem;
+  }
+  #proffession,
+  .hero-link {
+    font-size: 1.25rem;
   }
   #link-container {
-    gap: 4rem;
+    justify-content: center;
+    gap: 2rem;
   }
-  #proffession {
-    padding-bottom: 1rem;
+  .hero-link {
+    font-size: 1.25rem;
+    padding: 1.25rem 2rem;
   }
-  .proffession {
-    font-size: 1.1rem;
+  #link-container {
+    padding-top: 2rem;
   }
-  .link {
-    font-size: 1.1rem;
-    padding: 0.75rem 1.5rem;
+  /* Left Side */
+
+  /* Right Side */
+  #hero-right {
+    display: none;
   }
-  #proffesion-link {
-    padding-top: 2.75rem;
-  }
+  /* Right Side */
 }
 @media (min-width: 576px) and (max-width: 768px) {
   #hero-left {
@@ -252,42 +313,9 @@ Fonts List */
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
-/* Responsive */
-/* Left Side */
-
-/* Right Side */
-#hero-image {
-  height: 75vh;
-}
-#hero-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 1401px) and (max-width: 1600px) {
 }
 /* Responsive */
-@media (max-width: 375px) {
-  #hero-right {
-    display: none;
-  }
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  #hero-right {
-    display: none;
-  }
-}
-@media (min-width: 576px) and (max-width: 768px) {
-  #hero-right {
-    display: none;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
-/* Responsive */
-/* Right Side */
 /* Hero Section */
 
 /* About Me Section */
@@ -329,13 +357,6 @@ Fonts List */
 }
 /* Responsive */
 
-#bio {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 250;
-  color: #1a1f2b;
-}
 #profile-image {
   width: 70%;
   border-radius: 50%;
@@ -477,13 +498,6 @@ Fonts List */
   flex-direction: column;
   align-items: flex-end;
 }
-.education {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 250;
-  color: #1a1f2b;
-}
 #education-image {
   height: 70rem;
   width: 70rem;
@@ -596,6 +610,49 @@ Fonts List */
 /* Responsive */
 /* Education */
 
+/* Work Experience */
+#work-experience {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: auto;
+}
+#work-experience-details-container {
+  display: grid;
+  grid-column: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.work-experience-details {
+  display: grid;
+  grid-template-columns: 1.2fr 4fr;
+  grid-template-rows: auto;
+}
+.work-experience {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  color: #1a1f2b;
+}
+.working-year,
+.work-institute-name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.paragraph-text,
+.paragraph-heading-text,
+.designation {
+  font-size: 2rem;
+}
+/* Work Experience */
+
+/* Additional Information */
+#additional-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* Additional Information */
 /* Footer */
 #footer {
   background-color: wheat;

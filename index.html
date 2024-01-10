@@ -14,16 +14,16 @@
   </head>
   <body>
     <div class="container">
-      <section id="hero" class="hero">
-        <div id="hero-left">
-          <h3 id="portfolio" class="portfolio">Portfolio</h3>
-          <p id="hello" class="hello">Hello,</p>
-          <h1 id="full-name" class="full-name">
+      <section id="hero-section">
+        <div id="hero-left-container">
+          <h3 id="portfolio">Portfolio</h3>
+          <p id="hello">Hello,</p>
+          <h1 id="hero-full-name">
             MD SAZZADUL ISLAM <br />
-            <span id="last-name" class="last-name">SAKIB</span>
+            <span id="hero-last-name">SAKIB</span>
           </h1>
-          <div id="proffesion-link">
-            <h2 id="proffession" class="proffession">
+          <div id="proffesion-link-container">
+            <h2 id="proffession">
               Electrical &amp; Electronic Engineer <br />Web Developer<br />Virtual
               Assistant
             </h2>
@@ -31,8 +31,7 @@
               <a
                 href="https://www.google.com/"
                 target="_blank"
-                id="reach-me"
-                class="link"
+                class="hero-link"
               >
                 Reach Me!</a
               >
@@ -40,7 +39,7 @@
                 href="./assets/docs/cv.pdf"
                 target="_blank"
                 id="resume"
-                class="link"
+                class="hero-link"
               >
                 Resume</a
               >
@@ -55,9 +54,10 @@
           />
         </div>
       </section>
+      <!-- 
       <section class="about-me">
         <div id="about-me-left">
-          <h3 id="bio">Bio</h3>
+          <h3 id="bio" class="section-heading-text">Bio</h3>
           <img
             src="./assets/images/profile-image.jpg"
             alt="Profile Image"
@@ -69,14 +69,14 @@
             I am an Electrical&nbsp;&amp;&nbsp;Electronic&nbsp;Engineer,
             Web&nbsp;Developer and Virtual&nbsp;Assistant
           </h2>
-          <p class="second-para-text para-text">
+          <p class="paragraph-text second-para-text para-text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore,
             officia maxime porro doloremque sit explicabo nisi blanditiis atque
             maiores. Quisquam aspernatur qui repellendus obcaecati, eum, placeat
             nesciunt pariatur, cum fuga in quasi totam accusantium? Doloremque
             quisquam veritatis error eaque harum!
           </p>
-          <p class="third-para-text para-text">
+          <p class="paragraph-text third-para-text para-text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore,
             officia maxime porro doloremque sit explicabo nisi blanditiis atque
             maiores. Quisquam aspernatur qui repellendus obcaecati, eum, placeat
@@ -91,35 +91,127 @@
             <h2 class="degree-name">
               Bachelor of Science in Electrical &amp; Electronic Engineering
             </h2>
-            <h3 class="institute-name">Metropolitan University</h3>
-            <p class="passing-year">Year: 2018-2023</p>
-            <h3 class="grade-info">CGPA : 3.45 out of 4</h3>
+            <h3 class="paragraph-text institute-name">
+              Metropolitan University
+            </h3>
+            <p class="paragraph-text passing-year">Year&colon; 2018-2023</p>
+            <h3 class="paragraph-text grade-info">
+              CGPA &colon; 3.45 out of 4
+            </h3>
           </div>
           <div class="college-info">
             <h2 class="degree-name">
               Higher Secondary Certificate (HSC) <br />Science
             </h2>
-            <h3 class="institute-name">Metropolitan University</h3>
-            <p class="passing-year">Year: 2015-2017</p>
-            <h3 class="grade-info">CGPA : 4.5 out of 5</h3>
+            <h3 class="paragraph-text institute-name">
+              Scholarshome Majortila Campus
+            </h3>
+            <p class="paragraph-text passing-year">Year&colon; 2015-2017</p>
+            <h3 class="paragraph-text grade-info">GPA &colon; 4.5 out of 5</h3>
           </div>
           <div class="madrasha-info">
             <h2 class="degree-name">
               Secondary School Certificate (Dakhil / SSC) <br />Science
             </h2>
-            <h3 class="institute-name">Sylhet Cadet Madrasha</h3>
-            <p class="passing-year">Year: 2013-2015</p>
-            <h3 class="grade-info">CGPA : 4.22 out of 5</h3>
+            <h3 class="paragraph-text institute-name">Sylhet Cadet Madrasha</h3>
+            <p class="paragraph-text passing-year">Year&colon; 2013-2015</p>
+            <h3 class="paragraph-text grade-info">GPA &colon; 4.22 out of 5</h3>
           </div>
         </div>
         <div class="education-right">
-          <h3 class="education">Education</h3>
+          <h3 class="section-heading-text education">Education</h3>
           <img
             id="education-image"
             src="./assets/images/education-image.jpg"
             alt=""
           />
         </div>
+      </section>
+      <section id="work-experience">
+        <div id="work-experience-heading">
+          <h3 class="section-heading-text work-experience">Work Experience</h3>
+        </div>
+        <div id="work-experience-details-container">
+          <div class="work-experience-details">
+            <div id="work-duration">
+              <p class="working-year">November 2023 - Present</p>
+            </div>
+            <div id="wingtrip-details">
+              <h4 class="paragraph-heading-text work-institute-name">
+                WingTrip
+              </h4>
+              <h5 class="designation">Owner</h5>
+              <p class="paragraph-text paragraph-text work-explanation">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                aliquid consequatur rerum, soluta mollitia et.
+              </p>
+            </div>
+          </div>
+          <div class="work-experience-details">
+            <div id="work-duration">
+              <p class="working-year">October 2021 - January 2023</p>
+            </div>
+            <div id="skynet-broadband-service-details">
+              <h4 class="paragraph-heading-text work-institute-name">
+                Skynet Broadband Service
+              </h4>
+              <h5 class="designation">Manager</h5>
+              <h5 class="designation">Customer Support Engineer</h5>
+              <h5 class="designation">Accountant</h5>
+              <p class="paragraph-text paragraph-text work-explanation">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                aliquid consequatur rerum, soluta mollitia et.
+              </p>
+            </div>
+          </div>
+          <div class="work-experience-details">
+            <div id="work-duration">
+              <p class="working-year">July 2020 - December 2022</p>
+            </div>
+            <div id="work-experience-details">
+              <h4 class="paragraph-heading-text work-institute-name">
+                Leadurhub Bangladesh
+              </h4>
+              <h5 class="designation">Product Development Engineer</h5>
+              <p class="paragraph-text paragraph-text work-explanation">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                aliquid consequatur rerum, soluta mollitia et.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="additional-info">
+        <h3 id="additional-certificate-works" class="section-heading-text">
+          Additional Certificate &amp; Others Works
+        </h3>
+        <div id="additional-certificate-details">
+          <div class="certificate-1">
+            <h6 class="course-name">Web Development</h6>
+            <p class="certificate-issuer">Johns Hopkins</p>
+            <p class="credential-id">Credential ID &colon;</p>
+            <a href="">View Certificate</a>
+          </div>
+          <div class="certificate-2">
+            <h6 class="course-name">Data Entry</h6>
+            <p class="certificate-issuer">10 Minute School</p>
+            <p class="credential-id">Credential ID &colon;</p>
+            <a href="">View Certificate</a>
+          </div>
+        </div>
+        <div id="others-works"></div>
+      </section>
+      <section id="skill-proficiencies">
+        <h2 class="section-heading-text">Skills &amp; Proficiencies</h2>
+      </section>
+      <section id="honors-awards">
+        <h2 class="section-heading-text">Honors &amp; Awards</h2>
+      </section>
+      <section id="hobbies-interest">
+        <h4 class="section-heading-text">Hobbies &amp; Interests</h4>
+      </section>
+      <section id="projects">
+        <h2 class="section-heading-text">My Projects</h2>
       </section>
       <section id="footer">
         <footer>
@@ -178,6 +270,7 @@
           <h6 id="copyright-text">&copy;2023 Sakib | All Rights Reserved.</h6>
         </footer>
       </section>
+      Test -->
     </div>
   </body>
 </html>
