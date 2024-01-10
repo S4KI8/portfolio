@@ -53,12 +53,26 @@ Fonts List */
 }
 .paragraph-text {
   color: #1a1f2b;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Poppins", sans-serif;
 }
 
 /* Responsive */
 @media (max-width: 375px) {
+  .section-heading-text {
+    font-size: 2.5rem;
+  }
+  .proffession,
+  .paragraph-heading-text,
+  .institute-name,
+  .designation,
+  .course-name,
+  .degree-name {
+    font-size: 2rem;
+  }
+  .paragraph-text {
+    font-size: 1.25rem;
+  }
 }
 @media (min-width: 376px) and (max-width: 575px) {
 }
@@ -318,130 +332,58 @@ Fonts List */
 /* Responsive */
 /* Hero Section */
 
-/* About Me Section */
-.about-me {
+/* BIO Section */
+/* Layout */
+#bio-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  padding: 10rem 15rem;
-  margin-bottom: 15rem;
+  margin: 10rem 15rem;
 }
-/* Responsive */
-@media (max-width: 375px) {
-  .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3.5rem 2rem;
-    margin-bottom: 3rem;
-  }
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 5rem;
-    margin-bottom: 3rem;
-  }
-}
-@media (min-width: 576px) and (max-width: 768px) {
-}
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
-/* Responsive */
+/* Layout */
 
+/* BIO Left */
 #profile-image {
   width: 70%;
   border-radius: 50%;
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
-/* Responsive */
-@media (max-width: 375px) {
-  #about-me-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #bio {
-    font-size: 2.5rem;
-    align-self: flex-start;
-  }
-  #profile-image {
-    width: 70%;
-    border-radius: 50%;
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
-  }
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  #about-me-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #bio {
-    font-size: 2.5rem;
-    align-self: flex-start;
-  }
-  #profile-image {
-    width: 70%;
-    border-radius: 50%;
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
-  }
-}
-@media (min-width: 576px) and (max-width: 768px) {
-}
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
+/* BIO Left */
 
-/* Responsive */
-.para-text {
-  color: #1a1f2b;
-  font-size: 2.5rem;
-  margin-top: 4rem;
-  font-family: "Poppins", sans-serif;
-}
+/* BIO Right */
 #bio-first-para-text {
   font-size: 3.5rem;
   font-family: "Merriweather", serif;
   font-weight: 800;
-  margin-top: 0rem;
 }
+.bio-paragraph-text {
+  margin-top: 4rem;
+}
+/* BIO Right */
 
+/* Responsive */
 @media (max-width: 375px) {
-  #about-me-right {
+  #bio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem;
   }
-  .para-text {
-    font-size: 1rem;
-    margin-top: 1.1rem;
+  #bio-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  #bio-first-para-text {
-    font-size: 1.15rem;
-    font-family: "Merriweather", serif;
-    font-weight: 800;
-    margin-top: 0rem;
+  #bio {
+    align-self: center;
   }
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  #about-me-right {
-  }
-  .para-text {
-    font-size: 1.2rem;
-    margin-top: 1.2rem;
+  #profile-image {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
   }
   #bio-first-para-text {
     font-size: 1.5rem;
@@ -449,6 +391,39 @@ Fonts List */
     font-weight: 800;
     margin-top: 0rem;
   }
+  .bio-paragraph-text {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 575px) {
+  #bio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
+  }
+  #bio-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bio {
+    align-self: center;
+  }
+  #profile-image {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  #bio-first-para-text {
+    font-size: 2rem;
+  }
+  .bio-paragraph-text {
+    margin-top: 1.75rem;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
 }
@@ -459,10 +434,9 @@ Fonts List */
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
 /* Responsive */
-/* About Me Section */
+/* BIO Section */
 
 /* Education */
-
 #education-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -640,11 +614,11 @@ Fonts List */
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-.paragraph-text,
+/* .paragraph-text,
 .paragraph-heading-text,
 .designation {
   font-size: 2rem;
-}
+} */
 /* Work Experience */
 
 /* Additional Information */
