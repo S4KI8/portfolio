@@ -4,23 +4,6 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 Fonts List */
 
-/* Media Query */
-@media (max-width: 375px) {
-}
-@media (min-width: 376px) and (max-width: 575px) {
-}
-@media (min-width: 576px) and (max-width: 768px) {
-}
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
-@media (min-width: 1401px) and (max-width: 1600px) {
-}
-/* Media Query */
-
 /* Reset */
 * {
   margin: 0px;
@@ -53,12 +36,12 @@ Fonts List */
 }
 .paragraph-text {
   color: #1a1f2b;
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
 
 /* Responsive */
-@media (max-width: 375px) {
+@media (max-width: 575px) {
   .section-heading-text {
     font-size: 2.5rem;
   }
@@ -71,12 +54,12 @@ Fonts List */
     font-size: 2rem;
   }
   .paragraph-text {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
-@media (min-width: 376px) and (max-width: 575px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .section-heading-text {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
   }
   .proffession,
   .paragraph-heading-text,
@@ -87,30 +70,54 @@ Fonts List */
     font-size: 2rem;
   }
   .paragraph-text {
-    font-size: 1.45rem;
+    font-size: 1.3rem;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-heading-text {
+    font-size: 3rem;
+  }
+  .proffession,
+  .paragraph-heading-text,
+  .institute-name,
+  .designation,
+  .course-name,
+  .degree-name {
+    font-size: 2rem;
+  }
+  .paragraph-text {
+    font-size: 1.5rem;
+  }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-heading-text {
+    font-size: 3rem;
+  }
+  .proffession,
+  .paragraph-heading-text,
+  .institute-name,
+  .designation,
+  .course-name,
+  .degree-name {
+    font-size: 2rem;
+  }
+  .paragraph-text {
+    font-size: 1.75rem;
+  }
 }
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
-@media (min-width: 1401px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
 }
 /* Responsive */
 /* Universal Design */
 
 /* Hero Section */
-
 /* Layout */
-#hero-section {
+#hero-section-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 70vh;
   background-color: antiquewhite;
+  padding: 3rem 20rem 3rem 20rem;
 }
 /* Layout */
 
@@ -119,7 +126,6 @@ Fonts List */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 0rem 3rem 15rem;
 }
 #portfolio {
   font-size: 3.5rem;
@@ -130,38 +136,35 @@ Fonts List */
 }
 #hello {
   font-family: "Dancing Script", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
   font-weight: 700;
   color: #96d13b;
-  padding-top: 5rem;
+  margin-top: 7rem;
 }
 #hero-full-name,
 #hero-last-name {
   font-family: "Merriweather", serif;
-  font-size: 5.87rem;
+  font-size: 7rem;
   color: #1a1f2b;
 }
 #hero-last-name {
   color: #3b65d2;
 }
 #proffesion-link-container {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: 1fr;
-  padding-top: 7rem;
-}
-#link-container,
-#proffession {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  gap: 4rem;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+#link-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 5rem;
 }
 #proffession,
 .hero-link {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #1a1f2b;
 }
 #proffession {
@@ -184,112 +187,100 @@ Fonts List */
 /* Right Side */
 #hero-right {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 #hero-image {
-  height: 75vh;
+  height: 60vh;
 }
 /* Right Side */
 
 /* Responsive */
-@media (max-width: 375px) {
+@media (max-width: 575px) {
   /* Layout */
-  #hero-section {
-    grid-template-columns: 100vw;
+  #hero-section-container {
+    grid-template-columns: 100%;
     grid-template-rows: auto;
+    padding: 5rem 3rem 5rem 3rem;
   }
   /* Layout */
 
   /* Left Side */
-  #hero-left-container {
-    padding: 4rem 2rem 4rem 2rem;
-  }
   #portfolio {
-    font-size: 1.75rem;
-    padding: 0rem 0rem 0rem 0rem;
+    font-size: 2rem;
   }
   #hello {
-    font-size: 1.5rem;
-    padding-top: 2.5rem;
+    font-size: 2rem;
+    margin-top: 3.5rem;
   }
   #hero-full-name,
   #hero-last-name {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
   #proffesion-link-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-top: 2.5rem;
-  }
-  #proffession,
-  .hero-link {
-    font-size: 1rem;
-  }
-  #link-container {
-    justify-content: center;
-    gap: 2rem;
-  }
-  .hero-link {
-    font-size: 1.1rem;
-    padding: 0.75rem 1.5rem;
-  }
-  #link-container {
-    padding-top: 1rem;
-  }
-  /* Left Side */
-
-  /* Right Side */
-  #hero-right {
-    display: none;
-  }
-  /* Right Side */
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  /* Layout */
-  #hero-section {
-    grid-template-columns: 100vw;
-    grid-template-rows: auto;
-  }
-  /* Layout */
-
-  /* Left Side */
-  #hero-left-container {
-    padding: 5rem 5rem 5rem 5rem;
-  }
-  #portfolio {
-    font-size: 2.25rem;
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  #hello {
-    font-size: 2rem;
-    padding-top: 3.5rem;
-  }
-  #hero-full-name,
-  #hero-last-name {
-    font-size: 2.45rem;
-  }
-  #proffesion-link-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding-top: 3.5rem;
+    margin-top: 3.5rem;
   }
   #proffession,
   .hero-link {
     font-size: 1.25rem;
   }
   #link-container {
+    margin-top: 2rem;
     justify-content: center;
     gap: 2rem;
   }
   .hero-link {
-    font-size: 1.25rem;
     padding: 1.25rem 2rem;
   }
+  /* Left Side */
+
+  /* Right Side */
+  #hero-right {
+    display: none;
+  }
+  /* Right Side */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Layout */
+  #hero-section-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding: 5rem 7.5rem 5rem 7.5rem;
+  }
+  /* Layout */
+
+  /* Left Side */
+  #portfolio {
+    font-size: 2.5rem;
+  }
+  #hello {
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+  }
+  #hero-full-name,
+  #hero-last-name {
+    font-size: 3.6rem;
+  }
+  #proffesion-link-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 4rem;
+  }
+  #proffession,
+  .hero-link {
+    font-size: 1.5rem;
+  }
   #link-container {
-    padding-top: 2rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .hero-link {
+    padding: 1.25rem 2rem;
   }
   /* Left Side */
 
@@ -299,49 +290,101 @@ Fonts List */
   }
   /* Right Side */
 }
-@media (min-width: 576px) and (max-width: 768px) {
-  #hero-left {
-    margin: 0rem 5rem 0rem 5rem;
-    justify-content: center;
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Layout */
+  #hero-section-container {
+    padding: 3rem 7.5rem 3rem 7.5rem;
   }
+  /* Layout */
+
+  /* Left Side */
   #portfolio {
-    font-size: 2.75rem;
-    margin: 0rem 0rem 4.5rem 0rem;
+    font-size: 3rem;
   }
   #hello {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
+    margin-top: 5rem;
   }
-  #full-name,
-  #last-name {
+  #hero-full-name,
+  #hero-last-name {
+    font-size: 3.3rem;
+  }
+  #link-container {
+    margin-top: 3rem;
+    gap: 3rem;
+  }
+  /* Left Side */
+
+  /* Right Side */
+  #hero-image {
+    height: 60vh;
+    width: 85%;
+  }
+  /* Right Side */
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Layout */
+  #hero-section-container {
+    padding: 3rem 10rem 3rem 10rem;
+  }
+  /* Layout */
+
+  /* Left Side */
+  #portfolio {
+    font-size: 3.25rem;
+  }
+  #hello {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+  #hero-full-name,
+  #hero-last-name {
     font-size: 4rem;
   }
-  #full-name {
-    margin-bottom: 3rem;
+  #link-container {
+    margin-top: 3rem;
+    gap: 3rem;
   }
-  #proffesion-button {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+  /* Left Side */
+
+  /* Right Side */
+  #hero-image {
+    height: 60vh;
+    width: 85%;
   }
-  .proffession,
-  .button {
-    font-size: 1.5rem;
-  }
-  #button {
-    font-size: 1.5rem;
-    padding: 0.75rem 1.5rem;
-  }
-  #proffesion-button {
-    margin-top: 0rem;
-  }
+  /* Right Side */
 }
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
-}
-@media (min-width: 1401px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* Layout */
+  #hero-section-container {
+    padding: 3rem 15rem 3rem 15rem;
+  }
+  /* Layout */
+
+  /* Left Side */
+  #portfolio {
+    font-size: 3.5rem;
+  }
+  #hello {
+    font-size: 3.25rem;
+    margin-top: 6rem;
+  }
+  #hero-full-name,
+  #hero-last-name {
+    font-size: 4.8rem;
+  }
+  #link-container {
+    margin-top: 3rem;
+    gap: 3rem;
+  }
+  /* Left Side */
+
+  /* Right Side */
+  #hero-image {
+    height: 60vh;
+    width: 85%;
+  }
+  /* Right Side */
 }
 /* Responsive */
 /* Hero Section */
@@ -360,15 +403,13 @@ Fonts List */
 #profile-image {
   width: 70%;
   border-radius: 50%;
-  margin-top: 20rem;
+  margin-top: 8rem;
 }
 /* BIO Left */
 
 /* BIO Right */
 #bio-first-para-text {
   font-size: 3.5rem;
-  font-family: "Merriweather", serif;
-  font-weight: 800;
 }
 .bio-paragraph-text {
   margin-top: 4rem;
@@ -376,13 +417,13 @@ Fonts List */
 /* BIO Right */
 
 /* Responsive */
-@media (max-width: 375px) {
+@media (max-width: 575px) {
   #bio-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5rem 2rem;
+    margin: 5rem 3rem;
   }
   #bio-left {
     display: flex;
@@ -394,13 +435,39 @@ Fonts List */
     align-self: center;
   }
   #profile-image {
-    width: 70%;
-    border-radius: 50%;
     margin-top: 2.5rem;
     margin-bottom: 4rem;
   }
   #bio-first-para-text {
-    font-size: 1.5rem;
+    font-size: 1.62rem;
+  }
+  .bio-paragraph-text {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #bio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 7.5rem;
+  }
+  #bio-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bio {
+    align-self: center;
+  }
+  #profile-image {
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  #bio-first-para-text {
+    font-size: 2rem;
     font-family: "Merriweather", serif;
     font-weight: 800;
     margin-top: 0rem;
@@ -409,43 +476,74 @@ Fonts List */
     margin-top: 2rem;
   }
 }
-@media (min-width: 376px) and (max-width: 575px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  /* BIO Section */
+  /* Layout */
   #bio-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 5rem;
+    margin: 3rem 7.5rem;
   }
-  #bio-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #bio {
-    align-self: center;
-  }
+  /* Layout */
+
+  /* BIO Left */
   #profile-image {
-    width: 70%;
-    border-radius: 50%;
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
+    margin-top: 8rem;
   }
+  /* BIO Left */
+
+  /* BIO Right */
   #bio-first-para-text {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .bio-paragraph-text {
-    margin-top: 1.75rem;
+    margin-top: 1.5rem;
   }
+  /* BIO Right */
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* BIO Section */
+  /* Layout */
+  #bio-section {
+    margin: 5rem 10rem;
+  }
+  /* Layout */
+
+  /* BIO Left */
+  #profile-image {
+    margin-top: 8rem;
+  }
+  /* BIO Left */
+
+  /* BIO Right */
+  #bio-first-para-text {
+    font-size: 2.2rem;
+  }
+  .bio-paragraph-text {
+    margin-top: 2rem;
+  }
+  /* BIO Right */
 }
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* BIO Section */
+  /* Layout */
+  #bio-section {
+    margin: 5rem 15rem;
+  }
+  /* Layout */
+
+  /* BIO Left */
+  #profile-image {
+    margin-top: 8rem;
+  }
+  /* BIO Left */
+
+  /* BIO Right */
+  #bio-first-para-text {
+    font-size: 2.55rem;
+  }
+  .bio-paragraph-text {
+    margin-top: 3rem;
+  }
+  /* BIO Right */
 }
 /* Responsive */
 /* BIO Section */
@@ -641,8 +739,9 @@ Fonts List */
   grid-template-columns: 1fr 1fr 1fr;
 }
 /* Additional Information */
+
 /* Footer */
-#footer {
+#footer-section {
   background-color: wheat;
   font-family: "Poppins", sans-serif;
 }
@@ -651,36 +750,28 @@ footer {
   flex-direction: column;
   padding-left: 15rem;
 }
-.connect-with-me {
+#connect-with-me {
   font-size: 4rem;
   padding-top: 12rem;
 }
-.name {
+#footer-name {
   font-size: 2.75rem;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
-.contact-information,
-.contact-information a,
-.connect-with-me-social {
-  font-size: 1.75rem;
-  color: #1a1f2b;
+#footer-e-mail,
+#footer-find-my-resume {
+  margin-top: 2rem;
 }
-.e-mail {
-  padding-top: 2rem;
+#connect-with-me-social {
+  margin-top: 5rem;
 }
-.find-my-resume {
-  padding-top: 2rem;
-}
-.connect-with-me-social {
-  padding-top: 5rem;
-}
-.social-logo {
+#footer-social-logo {
   display: flex;
   gap: 3rem;
-  padding-top: 4rem;
-  padding-bottom: 15rem;
+  margin-top: 4rem;
+  margin-bottom: 15rem;
 }
-.connecting-social-media-logo {
+.footer-connecting-social-media-logo {
   width: 4.5rem;
   height: 4.5rem;
 }
@@ -696,35 +787,27 @@ footer {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .connect-with-me {
+  #connect-with-me {
     font-size: 2rem;
     padding-top: 7rem;
   }
-  .name {
+  #footer-name {
     font-size: 1.5rem;
-    padding-top: 4rem;
+    margin-top: 3.5rem;
   }
-  .contact-information,
-  .contact-information a,
-  .connect-with-me-social {
-    font-size: 1rem;
-    color: #1a1f2b;
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
   }
-  .e-mail {
-    padding-top: 1.5rem;
+  #connect-with-me-social {
+    margin-top: 4rem;
   }
-  .find-my-resume {
-    padding-top: 1.5rem;
-  }
-  .connect-with-me-social {
-    padding-top: 4rem;
-  }
-  .social-logo {
+  #footer-social-logo {
     gap: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
   }
-  .connecting-social-media-logo {
+  .footer-connecting-social-media-logo {
     width: 2rem;
     height: 2rem;
   }
@@ -737,40 +820,32 @@ footer {
     padding-left: 5rem;
     padding-right: 5rem;
   }
-  .connect-with-me {
-    font-size: 2rem;
+  #connect-with-me {
+    font-size: 2.5rem;
     padding-top: 7rem;
   }
-  .name {
+  #footer-name {
     font-size: 1.5rem;
-    padding-top: 4rem;
+    margin-top: 3.5rem;
   }
-  .contact-information,
-  .contact-information a,
-  .connect-with-me-social {
-    font-size: 1rem;
-    color: #1a1f2b;
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
   }
-  .e-mail {
-    padding-top: 1.5rem;
+  #connect-with-me-social {
+    margin-top: 4rem;
   }
-  .find-my-resume {
-    padding-top: 1.5rem;
-  }
-  .connect-with-me-social {
-    padding-top: 4rem;
-  }
-  .social-logo {
+  #footer-social-logo {
     gap: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
   }
-  .connecting-social-media-logo {
-    width: 2rem;
-    height: 2rem;
+  .footer-connecting-social-media-logo {
+    width: 3rem;
+    height: 3rem;
   }
   #copyright-text {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
