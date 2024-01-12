@@ -83,10 +83,10 @@ Fonts List */
   .designation,
   .course-name,
   .degree-name {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .paragraph-text {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -102,7 +102,7 @@ Fonts List */
     font-size: 2rem;
   }
   .paragraph-text {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -571,6 +571,7 @@ Fonts List */
 }
 /* Education Left */
 
+/* Education Right */
 #education-right {
   display: flex;
   flex-direction: column;
@@ -581,6 +582,7 @@ Fonts List */
   width: 60rem;
   margin-top: 5rem;
 }
+/* Education Right */
 
 /* Responsive */
 @media (max-width: 575px) {
@@ -603,9 +605,6 @@ Fonts List */
   .institute-name {
     margin-top: 0.75rem;
   }
-  .grade-info {
-    font-weight: normal;
-  }
   /* Education Left */
 
   /* Education Right */
@@ -620,7 +619,7 @@ Fonts List */
     align-self: center;
   }
   #education-image {
-    height: 25vh;
+    height: 30vh;
     width: 75%;
     margin-top: 1.5rem;
     align-self: center;
@@ -648,9 +647,6 @@ Fonts List */
   .institute-name {
     margin-top: 1rem;
   }
-  .grade-info {
-    font-weight: normal;
-  }
   /* Education Left */
 
   /* Education Right */
@@ -673,10 +669,82 @@ Fonts List */
   /* Education Right */
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Education */
+  /* Layout */
+  #education-info {
+    margin: 10rem 7.5rem;
+  }
+  /* Layout */
+
+  /* Education Left */
+  #university-info,
+  #college-info {
+    margin-bottom: 4.5rem;
+  }
+  .institute-name {
+    margin-top: 1rem;
+  }
+  /* Education Left */
+
+  /* Education Right */
+  #education-image {
+    height: 50vh;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  /* Education Right */
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Education */
+  /* Layout */
+  #education-info {
+    margin: 10rem 10rem;
+  }
+  /* Layout */
+
+  /* Education Left */
+  #university-info,
+  #college-info {
+    margin-bottom: 4.5rem;
+  }
+  .institute-name {
+    margin-top: 1rem;
+  }
+  /* Education Left */
+
+  /* Education Right */
+  #education-image {
+    height: 55vh;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  /* Education Right */
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
+  /* Education */
+  /* Layout */
+  #education-info {
+    margin: 10rem 10rem;
+  }
+  /* Layout */
+
+  /* Education Left */
+  #university-info,
+  #college-info {
+    margin-bottom: 4.5rem;
+  }
+  .institute-name {
+    margin-top: 1rem;
+  }
+  /* Education Left */
+
+  /* Education Right */
+  #education-image {
+    height: 55vh;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  /* Education Right */
 }
 /* Responsive */
 /* Education */
