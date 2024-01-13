@@ -801,7 +801,7 @@ Fonts List */
 footer {
   display: flex;
   flex-direction: column;
-  padding-left: 15rem;
+  margin-left: 20rem;
 }
 #connect-with-me {
   font-size: 4rem;
@@ -822,7 +822,7 @@ footer {
   display: flex;
   gap: 3rem;
   margin-top: 4rem;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
 }
 .footer-connecting-social-media-logo {
   width: 4.5rem;
@@ -835,79 +835,156 @@ footer {
   align-self: center;
 }
 /* Responsive */
-@media (max-width: 375px) {
+@media (max-width: 575px) {
   footer {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  #connect-with-me {
-    font-size: 2rem;
-    padding-top: 7rem;
-  }
-  #footer-name {
-    font-size: 1.5rem;
-    margin-top: 3.5rem;
-  }
-  #footer-e-mail,
-  #footer-find-my-resume {
-    margin-top: 2rem;
-  }
-  #connect-with-me-social {
-    margin-top: 4rem;
-  }
-  #footer-social-logo {
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-  }
-  .footer-connecting-social-media-logo {
-    width: 2rem;
-    height: 2rem;
-  }
-  #copyright-text {
-    font-size: 0.75rem;
-  }
-}
-@media (min-width: 376px) and (max-width: 575px) {
-  footer {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin-left: 3rem;
   }
   #connect-with-me {
     font-size: 2.5rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
   }
   #footer-name {
-    font-size: 1.5rem;
-    margin-top: 3.5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
   }
   #footer-e-mail,
   #footer-find-my-resume {
     margin-top: 2rem;
   }
   #connect-with-me-social {
-    margin-top: 4rem;
+    margin-top: 3.5rem;
   }
   #footer-social-logo {
     gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
+  }
+  .footer-connecting-social-media-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  footer {
+    margin-left: 7.5rem;
+  }
+  #connect-with-me {
+    font-size: 3rem;
+    padding-top: 7.5rem;
+  }
+  #footer-name {
+    font-size: 2.25rem;
+    margin-top: 3rem;
+  }
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
+  }
+  #connect-with-me-social {
+    margin-top: 3.5rem;
+  }
+  #footer-social-logo {
+    gap: 1.5rem;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
+  }
+  .footer-connecting-social-media-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    margin-left: 7.5rem;
+  }
+  #connect-with-me {
+    font-size: 3.5rem;
+    padding-top: 7.5rem;
+  }
+  #footer-name {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
+  }
+  #connect-with-me-social {
+    margin-top: 3.5rem;
+  }
+  #footer-social-logo {
+    gap: 2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
+  }
+  .footer-connecting-social-media-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    margin-left: 10rem;
+  }
+  #connect-with-me {
+    font-size: 3.5rem;
+    padding-top: 7.5rem;
+  }
+  #footer-name {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
+  }
+  #connect-with-me-social {
+    margin-top: 3.5rem;
+  }
+  #footer-social-logo {
+    gap: 2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
   }
   .footer-connecting-social-media-logo {
     width: 3rem;
     height: 3rem;
   }
   #copyright-text {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
-}
-@media (min-width: 769px) and (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+  footer {
+    margin-left: 10rem;
+  }
+  #connect-with-me {
+    font-size: 3.5rem;
+    padding-top: 7.5rem;
+  }
+  #footer-name {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  #footer-e-mail,
+  #footer-find-my-resume {
+    margin-top: 2rem;
+  }
+  #connect-with-me-social {
+    margin-top: 3.5rem;
+  }
+  #footer-social-logo {
+    gap: 2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 5rem;
+  }
+  .footer-connecting-social-media-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  #copyright-text {
+    font-size: 1.25rem;
+  }
 }
 /* Responsive */
 /* Footer */
