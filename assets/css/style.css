@@ -721,7 +721,7 @@ Fonts List */
 }
 .work-experience-details {
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1fr 1fr 0.8fr;
   grid-template-rows: auto;
   gap: 2rem;
 }
@@ -848,7 +848,30 @@ Fonts List */
 /* Additional Information */
 #additional-info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  margin: 15rem 20rem;
+}
+#additional-certificate-details {
+  display: grid;
+  grid-column: auto;
+  grid-template-rows: auto auto auto;
+  gap: 7.5rem;
+}
+#additional-right-container {
+  grid-area: ;
+}
+#others-works {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.8fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+.certificate-image {
+  display: block;
+  height: 30rem;
+  width: 50rem;
+  margin-top: 2rem;
 }
 /* Additional Information */
 
