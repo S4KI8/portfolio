@@ -754,6 +754,8 @@ Fonts List */
     margin-top: 3.5rem;
   }
   .work-experience-details {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
     gap: 1.5rem;
   }
   /* Layout */
@@ -891,12 +893,12 @@ Fonts List */
   #additional-right-container {
     padding-top: 2rem;
   }
-  .section-heading-text {
+  #additional-certificate-works {
     text-align: center;
   }
   .certificate-image {
-    height: 15rem;
-    width: 25rem;
+    height: 20rem;
+    width: 35rem;
     margin-top: 2rem;
   }
 }
