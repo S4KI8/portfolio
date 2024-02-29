@@ -879,7 +879,7 @@ Fonts List */
   #additional-info {
     display: flex;
     flex-direction: column;
-    margin: 7rem 3rem;
+    margin: 5rem 3rem;
   }
   #additional-certificate-details {
     gap: 2.5rem;
@@ -897,8 +897,8 @@ Fonts List */
     text-align: center;
   }
   .certificate-image {
-    height: 20rem;
-    width: 35rem;
+    height: 18rem;
+    width: 28rem;
     margin-top: 2rem;
   }
 }
