@@ -952,6 +952,9 @@ Fonts List */
   height: 90px;
   width: 90px;
 }
+.skill-img-text {
+  text-align: center;
+}
 
 /* Responsive */
 @media (max-width: 575px) {
@@ -974,8 +977,8 @@ Fonts List */
     gap: 10px;
   }
   .skills-icon {
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
