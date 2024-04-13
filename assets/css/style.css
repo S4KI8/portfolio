@@ -28,10 +28,15 @@ Fonts List */
   font-family: "Poppins", sans-serif;
 }
 
+#projects > h3,
+#interest > h3 {
+  text-align: center;
+}
 /* Responsive */
 @media (max-width: 575px) {
   .section-heading-text {
     font-size: 2.5rem;
+    text-align: center;
   }
   .body-text {
     font-size: 1.25rem;
@@ -40,6 +45,7 @@ Fonts List */
 @media (min-width: 576px) and (max-width: 767px) {
   .section-heading-text {
     font-size: 2.5rem;
+    text-align: center;
   }
   .body-text {
     font-size: 1.65rem;
@@ -946,13 +952,11 @@ Fonts List */
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  text-align: center;
 }
 .skills-icon {
   height: 90px;
   width: 90px;
-}
-.skill-img-text {
-  text-align: center;
 }
 
 /* Responsive */
@@ -971,9 +975,7 @@ Fonts List */
     gap: 35px;
   }
   /* Layout */
-  .section-heading-text {
-    text-align: center;
-  }
+
   .skill-img-text {
     gap: 10px;
   }
@@ -1015,12 +1017,15 @@ Fonts List */
 #projects > h2 {
   text-align: center;
 }
-.project-details {
+.com-title {
+  font-weight: 700;
+}
+.paragraph-project {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-weight: 700;
 }
 .video {
   display: flex;
@@ -1061,6 +1066,73 @@ video {
 }
 /* Responsive */
 /* Projects Proficiencies */
+
+/* Interest Proficiencies */
+/* Layout */
+#interest {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  margin: 15rem 20rem;
+}
+#interest-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 150px;
+}
+/* Layout */
+#interest > h2 {
+  text-align: center;
+}
+.interest-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+.interest-icon {
+  height: 90px;
+  width: 90px;
+}
+
+/* Responsive */
+@media (max-width: 575px) {
+  /* Layout */
+  #interest {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 3rem;
+    gap: 0;
+  }
+  #interest-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 2rem;
+    gap: 35px;
+  }
+  /* Layout */
+  .interest-img-text {
+    gap: 10px;
+  }
+  .interest-icon {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+/* Responsive */
+/* Interest Proficiencies */
 
 /* Footer */
 #footer-section {
