@@ -966,6 +966,8 @@ Fonts List */
     gap: 0;
   }
   #skills-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
     padding-top: 2rem;
     gap: 20px;
   }
