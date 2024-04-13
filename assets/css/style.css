@@ -22,8 +22,7 @@ Fonts List */
   color: #1a1f2b;
 }
 
-.body-text,
-.skill-img-text > p {
+.body-text {
   color: #1a1f2b;
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
@@ -969,7 +968,7 @@ Fonts List */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
     padding-top: 2rem;
-    gap: 20px;
+    gap: 35px;
   }
   /* Layout */
   .section-heading-text {
