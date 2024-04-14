@@ -413,7 +413,7 @@ Fonts List */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 7rem 5rem;
+    margin: 5rem;
   }
   #bio-left {
     display: flex;
@@ -634,7 +634,7 @@ Fonts List */
   /* Education */
   /* Layout */
   #education-info {
-    margin: 10rem 7.5rem;
+    margin: 7rem 7.5rem;
   }
   /* Layout */
 
@@ -813,6 +813,9 @@ Fonts List */
     margin-top: 3.5rem;
   }
   .work-experience-details {
+    display: grid;
+    grid-template-columns: 25rem auto;
+    grid-template-rows: auto;
     gap: 1.5rem;
   }
   /* Layout */
@@ -944,8 +947,32 @@ Fonts List */
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* Layout */
-
+  #additional-info {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 7.5rem;
+  }
+  #additional-certificate-details {
+    gap: 3.5rem;
+  }
+  #others-works {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
   /* Layout */
+  #additional-right-container {
+    padding-top: 3rem;
+  }
+  #additional-certificate-works {
+    text-align: center;
+  }
+  .certificate-image {
+    height: 15rem;
+    width: 22rem;
+    margin-top: 2rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Layout */
@@ -1038,6 +1065,30 @@ Fonts List */
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Layout */
+  #skill-proficiencies {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 7.5rem;
+    gap: 0;
+  }
+  #skills-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 3.5rem;
+    gap: 50px;
+  }
+  /* Layout */
+  #skill-proficiencies > h3 {
+    text-align: center;
+  }
+  .skill-img-text {
+    gap: 15px;
+  }
+  .skills-icon {
+    height: 65px;
+    width: 65px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }
@@ -1128,6 +1179,24 @@ video {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Layout */
+  #projects {
+    margin: 7rem 7.5rem;
+  }
+  #projects-showcase {
+    padding-top: 3.5rem;
+  }
+  /* Layout */
+  .project-details-video {
+    display: flex;
+    flex-direction: column;
+  }
+  .video {
+    padding: 1rem;
+  }
+  video {
+    width: 598px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }
@@ -1217,6 +1286,36 @@ video {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Layout */
+  #interest {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin: 7rem 7.5rem;
+  }
+  #interest-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 3.5rem;
+    gap: 50px;
+  }
+  /* Layout */
+  #interest > h2 {
+    text-align: center;
+  }
+  .interest-img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+  }
+  .interest-icon {
+    height: 90px;
+    width: 90px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }
