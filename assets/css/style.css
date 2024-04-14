@@ -833,6 +833,9 @@ Fonts List */
     gap: 5.5rem;
   }
   .work-experience-details {
+    display: grid;
+    grid-template-columns: 20rem auto;
+    grid-template-rows: auto;
     gap: 1.5rem;
   }
   /* Layout */
@@ -975,9 +978,31 @@ Fonts List */
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Layout */
-
-  /* Layout */
+  #additional-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    margin: 10rem;
+  }
+  #additional-certificate-details {
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: auto auto auto;
+    gap: 7.5rem;
+  }
+  #others-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-top: 7.5rem;
+  }
+  .certificate-image {
+    display: block;
+    height: 30rem;
+    width: 50rem;
+    margin-top: 2rem;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   /* Layout */
@@ -1091,6 +1116,18 @@ Fonts List */
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Layout */
+  #skill-proficiencies {
+    margin: 10rem;
+  }
+  /* Layout */
+  .skill-img-text {
+    gap: 15px;
+  }
+  .skills-icon {
+    height: 80px;
+    width: 80px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
 }
@@ -1199,6 +1236,24 @@ video {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Layout */
+  #projects {
+    margin: 10rem;
+  }
+  #projects-showcase {
+    padding-top: 3.5rem;
+  }
+  /* Layout */
+  .project-details-video {
+    display: flex;
+    flex-direction: column;
+  }
+  .video {
+    padding: 1rem;
+  }
+  video {
+    width: 720px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
 }
@@ -1318,6 +1373,23 @@ video {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  #interest {
+    gap: 10px;
+    margin: 10rem;
+  }
+  #interest-list {
+    padding-top: 3.5rem;
+    gap: 100px;
+  }
+  /* Layout */
+
+  .interest-img-text {
+    gap: 7.5px;
+  }
+  .interest-icon {
+    height: 85px;
+    width: 85px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
 }
