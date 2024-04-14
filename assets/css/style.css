@@ -1097,10 +1097,10 @@ video {
     flex-direction: column;
   }
   .video {
-    padding: 1rem;
+    padding-top: 1rem;
   }
   video {
-    width: 275px;
+    width: 260px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
