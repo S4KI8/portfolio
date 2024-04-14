@@ -660,7 +660,7 @@ Fonts List */
   /* Education */
   /* Layout */
   #education-info {
-    margin: 10rem 10rem;
+    margin: 10rem;
   }
   /* Layout */
 
@@ -686,7 +686,7 @@ Fonts List */
   /* Education */
   /* Layout */
   #education-info {
-    margin: 10rem 10rem;
+    margin: 10rem;
   }
   /* Layout */
 
@@ -727,7 +727,7 @@ Fonts List */
 }
 .work-experience-details {
   display: grid;
-  grid-template-columns: 1fr 1fr 0.8fr;
+  grid-template-columns: 30rem auto;
   grid-template-rows: auto;
   gap: 2rem;
 }
@@ -846,12 +846,13 @@ Fonts List */
 @media (min-width: 1200px) and (max-width: 1400px) {
   /* Layout */
   #work-experience {
-    margin: 10rem 10rem;
+    margin: 10rem;
   }
   #work-experience-details-container {
     gap: 5.5rem;
   }
   .work-experience-details {
+    grid-template-columns: 30rem auto;
     gap: 1.5rem;
   }
   /* Layout */
@@ -1005,9 +1006,9 @@ Fonts List */
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
-  /* Layout */
-
-  /* Layout */
+  #additional-info {
+    margin: 10rem;
+  }
 }
 /* Responsive */
 /* Additional Information */
@@ -1130,6 +1131,17 @@ Fonts List */
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
+  #skill-proficiencies {
+    gap: 15px;
+    margin: 10rem;
+  }
+  #skills-list {
+    gap: 70px;
+  }
+  /* Layout */
+  .skill-img-text {
+    gap: 15px;
+  }
 }
 /* Responsive */
 /* Skills Proficiencies */
@@ -1256,6 +1268,10 @@ video {
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
+  #projects {
+    margin: 10rem;
+  }
+  /* Layout */
 }
 /* Responsive */
 /* Projects Proficiencies */
@@ -1392,6 +1408,13 @@ video {
   }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
+  #interest {
+    margin: 10rem;
+  }
+  #interest-list {
+    gap: 125px;
+  }
+  /* Layout */
 }
 /* Responsive */
 /* Interest Proficiencies */
