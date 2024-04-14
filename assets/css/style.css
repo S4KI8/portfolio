@@ -895,6 +895,7 @@ Fonts List */
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 2.5rem;
   }
   /* Layout */
   #additional-right-container {
@@ -1099,7 +1100,7 @@ video {
     padding: 1rem;
   }
   video {
-    width: 300px;
+    width: 275px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
